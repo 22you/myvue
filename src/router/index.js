@@ -4,6 +4,8 @@ import HelloWorld from '@/components/HelloWorld'
 import Model from '@/components/v-model'
 import Friend from '@/components/FriendList'
 import Music from '@/components/Music'
+import Phone from '@/components/phone'
+
 Vue.use(Router)
 
 export default new Router({
@@ -27,6 +29,11 @@ export default new Router({
       path: '/music',
       name: 'music',
       component: Music
+    },
+    {
+      path: '/phone',
+      name: 'Phone',
+      component: Phone
     }
   ]
 })
